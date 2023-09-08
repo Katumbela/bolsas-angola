@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body{
+    overflow-x: hidden!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row a{
+    color: white!important;
+}
+
+.hide-text {
+    display: none;
+}
+
+.menu-ul {
+    display: flex;
+    color: white;
+    margin: auto 0;
+}
+ a{
+    text-decoration: none;
+ }
+.menu-ul li {
+    list-style-type: none;
+    margin: 0 1rem;
+    padding: .5em 1rem;
+}
+
+.menu-ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card2 img {
+    height: 10em;
+    width: 100%;
+}
+
+.menu-ul li:hover {
+    transition: .3s ease-in all;
+    border-radius: 10px;
+    color: #1e1efd;
+    border: 1px solid blue;
+   color: #1e1efd!important;
+}
+
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(90deg, #013494a0, #013494a0 ), url(../img/iStock-936016782-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero p {
+    color: white;
+    max-width: 60%;
+}
+
+.btn-white {
+    background: white;
+    border-radius: 0;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+
+.cont {
+    height: 50vh;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+.cont h1 {
+    font-size: 65px;
+    margin: 0 auto;
+}
+
+.right-side {
+    background: url(../img/img1.webp) center center;
+    background-size: cover;
+}
+
+
+.btn-white:hover {
+    background-color: rgb(233, 233, 233);
+    transition: .3s;
+    color: black!important;
+}
+
+.w-30 {
+    width: 40%;
+    color: #105afa!important;
+}
+
+.header {
+    padding: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+a #principal{
+    color: white;
+}
+
+.hero-text-1 {
+    display: none;
+}
+
+.hero-text-2 {
+    display: block;
+}
+
+.underline-pencil {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-pencil::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 2px;
+    background-color: #333; /* Cor da linha de sublinhado */
+    transform: rotate(-2deg); /* Inclinação da linha de sublinhado */
+}
+
+
+.img-1{
+    display: none;
+}
+
+.img-2{
+    display: block;
+}
+
+
+.pf {
+    /* font-size: 25px; */
+    color: rgb(123, 123, 123);
+}
+
+@media (max-width: 500px) {
+    
+    .newsletter {
+        margin-top: 7rem;
+    }
+.card2 img {
+    height: 18em;
+    width: 100%;
+    margin-top: 3rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.pf {
+    font-size: 14px;
+    padding: .2rem 2rem;
+}
+
+.card2 .card-body {
+    background: #e7e9ed65;
+    padding-bottom: 1rem;
+    padding-right: .8rem;
+    padding-left: .8rem;
+    padding-top: .5rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.hero-text-1{
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.hero-text-2{
+    display: none;
+}
+.img-1{
+    display: block;
+}
+
+.img-2{
+    display: none;
+}
+
+}
+
+::selection {
+    background: #b00c00e7;
+    color:rgb(237, 240, 255);
+}
+
+.bg-i {
+    background: #31b7ff4e;
+    }
+
+.how .bi {
+background: #31b7ff4e;
+height: 1.5rem!important ;
+width: 4.5rem!important;
+border-radius: 100px;
+padding:1rem!important;
+}
+
+.input {
+    border:1px solid  #105afa;
+    padding: 0 0 0 1rem;
+    border-radius: 66px;
+    width: auto;
+    /* background: hsla(238, 78%, 21%, 0.888); */
+}
+
+.input input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.input i {
+    color: #105afa;
+}
+
+.input button {
+    color: #ffffff;
+    border: 1px solid #105afa;
+    background: #105afa;
+    padding: .2rem 1rem;
+    border-top-right-radius: 66px;
+    border-bottom-right-radius: 66px;
+}
+
+.bb {
+    position: relative;
+}
+
+.bb img {
+    position: absolute;
+    bottom: 0;
+}
