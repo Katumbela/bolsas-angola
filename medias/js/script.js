@@ -58,3 +58,22 @@ ScrollReveal().reveal(".slide-up", {
   opacity: 0.3,
   scale: 0.5
 });
+
+function verificarPopup() {
+    const dataExpiracao = localStorage.getItem('popupExpiracao');
+    if (!dataExpiracao || new Date() > new Date(dataExpiracao)) {
+        document.getElementById("newsletterPopup").style.display = "block";
+        // Defina a data de expiração para 2 dias a partir de agora
+        const expiracao = new Date();
+        expiracao.setDate(expiracao.getDate() + 2);
+        localStorage.setItem('popupExpiracao', expiracao.toISOString());
+    }
+}
+
+// Função para fechar o pop-up
+function fecharPopup() {
+    document.getElementById("newsletterPopup").style.display = "none";
+}
+
+// Verificar e exibir o pop-up quando a página carregar
+window.onload = verificarPopup;
