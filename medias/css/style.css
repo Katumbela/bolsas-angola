@@ -328,3 +328,14 @@ padding:1rem!important;
 .logo {
     height: 4.5em;
 }
+
+b{
+    color: red;
+}
+#principal {
+    color: white!important;
+}
+
+#links {
+    color: black!important;
+}
