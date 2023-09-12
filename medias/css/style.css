@@ -328,5 +328,5 @@ b{
     color: red;
 }
 #principal b{
-    color: white;
+    color: white!important;
 }
